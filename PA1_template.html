@@ -162,6 +162,7 @@ p + geom_point(colour=&quot;blue&quot;) + geom_line(colour=&quot;blue&quot;, siz
 </div>
 <div id="imputing-missing-values" class="section level2">
 <h2>Imputing missing values</h2>
+<p>Missing values for each of the 5 minute intervals are vreploaced with the avreage number of time steps for that time interval calculated aver all days.</p>
 <pre class="r"><code>activity.na.rm &lt;- activity
 index_missing &lt;- which(is.na(activity.na.rm$steps))
 for(i in index_missing){

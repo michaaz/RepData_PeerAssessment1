@@ -67,7 +67,6 @@ The most active 5 minute time interval is at 08:35, with the average numbver of 
 
 
 ## Imputing missing values
-Missing values for each of the 5 minute intervals are vreploaced with the avreage number of time steps for that time interval calculated aver all days.
 
 ```r
 activity.na.rm <- activity
